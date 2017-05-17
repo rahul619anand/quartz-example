@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quartzJMX.iml" filepath="$PROJECT_DIR$/.idea/modules/quartzJMX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quartzJMX_main.iml" filepath="$PROJECT_DIR$/.idea/modules/quartzJMX_main.iml" group="quartzJMX" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quartzJMX_test.iml" filepath="$PROJECT_DIR$/.idea/modules/quartzJMX_test.iml" group="quartzJMX" />
+    </modules>
+  </component>
+</project>

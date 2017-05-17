@@ -1,0 +1,35 @@
+group 'com.test'
+version '1.0-SNAPSHOT'
+
+
+apply plugin:'scala'
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+    maven { url "http://repo.mycompany.com/maven2" }
+    maven { url "https://plugins.gradle.org/m2/" }
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.12.1'
+    compile group: 'org.quartz-scheduler', name: 'quartz', version: '2.3.0'
+    compile "com.typesafe.scala-logging:scala-logging_2.12:3.5.0"
+    compile "ch.qos.logback:logback-classic:1.1.7"
+}
+
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+                'Implementation-Version': version,
+                'Main-Class': 'com.test.quartz.Main'
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+configurations.all {
+   // resolutionStrategy.force 'org.slf4j:slf4j-api:1.7.21'
+}

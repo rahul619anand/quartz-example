@@ -1,0 +1,19 @@
+products:
+   src/main/scala/com/test/quartz/Main.scala -> build/classes/main/com/test/quartz/Main$.class
+   src/main/scala/com/test/quartz/Main.scala -> build/classes/main/com/test/quartz/Main.class
+   src/main/scala/com/test/quartz/MyJob.scala -> build/classes/main/com/test/quartz/MyJob.class
+binary dependencies:
+   src/main/scala/com/test/quartz/Main.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/test/quartz/Main.scala -> /Users/ranand/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.3.0/a090397102a12f6241177c5d501835334bb7662a/quartz-2.3.0.jar
+   src/main/scala/com/test/quartz/Main.scala -> /Users/ranand/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   src/main/scala/com/test/quartz/MyJob.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/test/quartz/MyJob.scala -> /Users/ranand/.gradle/caches/modules-2/files-2.1/com.typesafe.scala-logging/scala-logging_2.12/3.5.0/7c3c54941abfc346e412e8a3065b5da3668a4843/scala-logging_2.12-3.5.0.jar
+   src/main/scala/com/test/quartz/MyJob.scala -> /Users/ranand/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.3.0/a090397102a12f6241177c5d501835334bb7662a/quartz-2.3.0.jar
+   src/main/scala/com/test/quartz/MyJob.scala -> /Users/ranand/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   src/main/scala/com/test/quartz/MyJob.scala -> /Users/ranand/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar
+source dependencies:
+external dependencies:
+class names:
+   src/main/scala/com/test/quartz/Main.scala -> com.test.quartz.Main
+   src/main/scala/com/test/quartz/Main.scala -> com.test.quartz.Main$
+   src/main/scala/com/test/quartz/MyJob.scala -> com.test.quartz.MyJob
